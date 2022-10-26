@@ -2,23 +2,30 @@
 #include <stdio.h>
 
 /**
- * main - check code for alx students
- *
- * Return: 0
- */
+ *_strcat - concatennate 2 strings
+ * @dest: add as string
+ * @src: add as string
+ * Return: pointer
+*/
 
-char main(void)
+char *_strcat(char *dest, char *src)
 {
-	char = s1[98] = "Hello";
-	char = s2[] = "World\n";
-	char *ptr;
+	int a;
+	int b;
 
-	printf("%s\n", s1);
-	printf("%s", s2);
-	ptr = _strcat(s1, s2);
-	printf("%s", s1);
-	printf("%s", s2);
-	printf("%s", ptr);
-	return (0);
+	a = 0;
+	while (dest[a] != '\0')
+	{
+		a++;
+	}
+	b = 0;
+	while (src[b] != '\0')
+	{
+		dest[a] = src[b];
+		a++;
+		b++;
+	}
+	dest[i] = '\0';
+	return (dest);
 }
 
