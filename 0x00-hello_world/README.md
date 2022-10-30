@@ -1,1 +1,1 @@
- a script that generates the assembly code of a C code and save it in an output file
+A scritp that runs a c file through the preprocessor and save the result into another file. The C file name will be saved in the variable $CFILE. The output should be saved in the file c.
